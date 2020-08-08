@@ -14,4 +14,3 @@ idBtn.addEventListener('click', idBgImg);
 joBtn.addEventListener('click', joBgImg);
 
 trBtn.addEventListener('click', trBgImg);
-
