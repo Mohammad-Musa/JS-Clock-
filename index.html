@@ -5,7 +5,7 @@
   <meta charset='utf8'>
   <title>your project name</title>
 
-  <link href="./style.css" rel="stylesheet" />
+  <link href="./styles/style.css" rel="stylesheet" />
 
   <!-- load the testing dependencies -->
   <script src='./dependencies/chai.js'></script>
@@ -17,16 +17,21 @@
 </head>
 
 <body>
-  <p class='countryName'>BELGIUM</p>
-  <h1 class= 'time'></h1>
-  <div id='countries'>
-  <button >BELGIUM</button>
-  <button >ETHIOPIA</button>
-  <button >INDONESIA</button>
-  <button >JORDAN</button>
-  <button >TURKEY</button>
+  <div class="wrapper">
+    <h1 class='countryName'>BELGIUM</h1>
+    <h2 class='placeName'>Grote Markt, Brussels</h2>
   
+    <p class= 'time'></p>
+  
+    <div id='countries'>
+      <button class="country-btn">BELGIUM</button>
+      <button class="country-btn">ETHIOPIA</button>
+      <button class="country-btn">INDONESIA</button>
+      <button class="country-btn">JORDAN</button>
+      <button class="country-btn">TURKEY</button>
+     </div>
   </div>
+
   <script src='./scripts/script-variables.js'></script>
   <script src='./scripts/handlers/starter.js'></script>
   <script src='./scripts/logic/starter.js'></script>
