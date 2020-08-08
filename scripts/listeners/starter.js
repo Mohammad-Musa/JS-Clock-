@@ -4,6 +4,7 @@ console.log('--- loading listener: _');
 // document.getElementById('_')
 //   .addEventListener('_', _);
 
+
 beBtn.addEventListener('click', beBgImg);
 
 etBtn.addEventListener('click', etBgImg);
