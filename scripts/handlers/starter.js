@@ -14,13 +14,14 @@ const joBtn = document.querySelector('#jo-btn');
 const trBtn = document.querySelector('#tr-btn');
 
 function beBgImg(){
-    document.body.style.backgroundImage = "url('/images/BE_marius_badstuber_unsplash.jpg')";   
+    document.body.style.backgroundImage = "url('/images/BE_marius_badstuber_unsplash.jpg')";  
 };
 
 
 function etBgImg(){
-    document.body.style.backgroundImage = "url('/images/ET_mulugeta_wolde_unsplash.jpg')"; 
+    document.body.style.backgroundImage = "url('/images/ET_mulugeta_wolde_unsplash.jpg')";     
 };
+
 
 
 function idBgImg(){
@@ -31,6 +32,7 @@ function idBgImg(){
 function joBgImg(){
     document.body.style.backgroundImage = "url('/images/JO_brian_kairuz_unsplash.jpg')";
 };
+
 
 function trBgImg(){
     document.body.style.backgroundImage = "url('/images/TR_yonatan_anugerah_unsplash.jpg')";
