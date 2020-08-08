@@ -23,7 +23,7 @@ function beBgImg(){
 
     document.body.style.backgroundImage = "url('/images/BE_fotografierende_unsplash.jpg')";   
     changeH1.innerHTML='BELGIUM';
-    changeH2.innerHTML='Grote Markt, Brussels'; 
+    changeH2.innerHTML='Atomium, Brussels'; 
 
 };
 
@@ -33,7 +33,7 @@ function etBgImg(){
 
     document.body.style.backgroundImage = "url('/images/ET_mulugeta_wolde_unsplash.jpg')";
     changeH1.innerHTML='ETHIOPIA';
-    changeH2.innerHTML='Addis Ababa'; 
+    changeH2.innerHTML='Lalibela'; 
 
 };
 
