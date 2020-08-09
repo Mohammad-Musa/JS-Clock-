@@ -24,6 +24,12 @@ function setDate() {
   setInterval(setDate,1000);
 }
 setDate();
+
+function setClock() {
+country = event.target;
+key = country.innerHTML;
+
+}
 /* logic functions are pure functions
 
   NEVER read from the DOM

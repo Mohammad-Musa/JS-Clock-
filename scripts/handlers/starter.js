@@ -21,7 +21,7 @@ const changeH2 = document.querySelector('.placeName');
 // Belgium
 function beBgImg(){
 
-    document.body.style.backgroundImage = "url('/images/BE_marius_badstuber_unsplash.jpg')";   
+    document.body.style.backgroundImage = "url('./images/BE_marius_badstuber_unsplash.jpg')";   
     changeH1.innerHTML='BELGIUM';
     changeH2.innerHTML='Grote Markt, Brussels';
 
@@ -31,7 +31,7 @@ function beBgImg(){
 // Ethiopia
 function etBgImg(){
 
-    document.body.style.backgroundImage = "url('/images/ET_mulugeta_wolde_unsplash.jpg')";
+    document.body.style.backgroundImage = "url('./images/ET_mulugeta_wolde_unsplash.jpg')";
     changeH1.innerHTML='ETHIOPIA';
     changeH2.innerHTML='Addis Ababa'; 
 
@@ -41,14 +41,14 @@ function etBgImg(){
 
 // Indonesia
 function idBgImg(){
-    document.body.style.backgroundImage = "url('/images/ID_rashel_ochoa_unsplash.jpg')";
+    document.body.style.backgroundImage = "url('./images/ID_rashel_ochoa_unsplash.jpg')";
     changeH1.innerHTML='INDONESIA';
     changeH2.innerHTML='Jakarta'; 
 };
 
 // Jordan
 function joBgImg(){
-    document.body.style.backgroundImage = "url('/images/JO_brian_kairuz_unsplash.jpg')";
+    document.body.style.backgroundImage = "url('./images/JO_brian_kairuz_unsplash.jpg')";
     changeH1.innerHTML='JORDAN';
     changeH2.innerHTML='Petra'; 
 };
@@ -56,11 +56,13 @@ function joBgImg(){
 
 // Turkey
 function trBgImg(){
-    document.body.style.backgroundImage = "url('/images/TR_yonatan_anugerah_unsplash.jpg')";
+    document.body.style.backgroundImage = "url('./images/TR_yonatan_anugerah_unsplash.jpg')";
     changeH1.innerHTML='TURKEY';
     changeH2.innerHTML='Ankara'; 
 };
 
+// selecting buttons for changing time
+document.querySelector('#countries')
 
 console.log('--- finished handler: _');
 
